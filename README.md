@@ -1,35 +1,41 @@
 # Sistema de Controle de Medicamentos
 
-Programa em linguagem C para cadastrar e gerenciar medicamentos.
+Programa em C para cadastrar e visualizar medicamentos com dias e horários de uso.
 
 ## Funcionalidades
 
 - Cadastrar medicamentos
-- Listar medicamentos
-- Atualizar quantidade
-- Remover medicamentos
+- Listar medicamentos com detalhes
+- Buscar horários de todos os medicamentos
+  
 
 ## Como executar
 
-1. Compile o código:
+1. Compile:
 gcc programa.c -o programa
 
 2. Execute:
 ./programa
 
-## Estrutura
+## Como funciona
+
+O sistema permite:
+- Inserir nome, quantidade, dias e horários
+- Visualizar uma lista de medicamentos
+- Ver detalhes de um medicamento específico
+- Consultar todos os horários cadastrados
+
+## Estrutura dos dados
 
 Cada medicamento possui:
 - Nome
 - Quantidade
-- Dias de uso
+- Dias da semana
 - Horários
 
 ## Observações
+- Os dados são salvos no arquivo "medicamentos.txt"
+- O programa possui limpeza de tela para melhor navegação
 
-- Limite de 100 medicamentos
-- Dados não são salvos (apenas durante execução)
-
-## desenvolvedores 
-
+## Desenvolvedores
 Adelson Agenor, Ayken
